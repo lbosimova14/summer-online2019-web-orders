@@ -33,6 +33,7 @@ public abstract class BasePage {
     }
 
     public List<String> getColumnNames() {
+
         return BrowserUtils.getListOfString(columnNamesElements);
     }
 }
